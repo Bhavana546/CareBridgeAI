@@ -31,8 +31,8 @@ export default function HospitalNetworkPage() {
         setError("");
 
         const [policyResponse, hospitalResponse] = await Promise.all([
-          fetch("http://127.0.0.1:8000/policies"),
-          fetch("http://127.0.0.1:8000/hospitals"),
+          fetch("http://carebridgeai-fatj.onrender.com/policies"),
+          fetch("http://carebridgeai-fatj.onrender.com/hospitals"),
         ]);
 
         if (!policyResponse.ok) {

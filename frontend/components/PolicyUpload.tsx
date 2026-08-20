@@ -86,7 +86,7 @@ export default function PolicyUpload({
       );
 
       const response = await fetch(
-        "http://127.0.0.1:8000/upload-policy",
+        "http://carebridgeai-fatj.onrender.com/upload-policy",
         {
           method: "POST",
           body: formData,

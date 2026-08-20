@@ -24,7 +24,7 @@ export default function ProcedureExplorerPage() {
         setError("");
 
         const response = await fetch(
-          "http://127.0.0.1:8000/procedures"
+          "http://carebridgeai-fatj.onrender.com/procedures"
         );
 
         if (!response.ok) {

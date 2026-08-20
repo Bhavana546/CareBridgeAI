@@ -69,8 +69,8 @@ export default function RecommendationSection({
           policyResponse,
           procedureResponse,
         ] = await Promise.all([
-          fetch("http://127.0.0.1:8000/policies"),
-          fetch("http://127.0.0.1:8000/procedures"),
+          fetch("http://carebridgeai-fatj.onrender.com/policies"),
+          fetch("http://carebridgeai-fatj.onrender.com/procedures"),
         ]);
 
 
@@ -210,7 +210,7 @@ export default function RecommendationSection({
 
 
       const response = await fetch(
-        `http://127.0.0.1:8000/recommend?policy_id=${encodeURIComponent(
+        `http://carebridgeai-fatj.onrender.com/recommend?policy_id=${encodeURIComponent(
           activePolicyId
         )}&procedure_id=${encodeURIComponent(
           procedureId
