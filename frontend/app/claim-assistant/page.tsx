@@ -51,9 +51,9 @@ export default function ClaimAssistantPage() {
           hospitalResponse,
           procedureResponse,
         ] = await Promise.all([
-          fetch("http://carebridgeai-fatj.onrender.com/policies"),
-          fetch("http://carebridgeai-fatj.onrender.com/hospitals"),
-          fetch("http://carebridgeai-fatj.onrender.com/procedures"),
+          fetch("https://carebridgeai-fatj.onrender.com/policies"),
+          fetch("https://carebridgeai-fatj.onrender.com/hospitals"),
+          fetch("https://carebridgeai-fatj.onrender.com/procedures"),
         ]);
 
         if (

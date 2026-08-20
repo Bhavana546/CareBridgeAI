@@ -31,8 +31,8 @@ export default function HospitalNetworkPage() {
         setError("");
 
         const [policyResponse, hospitalResponse] = await Promise.all([
-          fetch("http://carebridgeai-fatj.onrender.com/policies"),
-          fetch("http://carebridgeai-fatj.onrender.com/hospitals"),
+          fetch("https://carebridgeai-fatj.onrender.com/policies"),
+          fetch("https://carebridgeai-fatj.onrender.com/hospitals"),
         ]);
 
         if (!policyResponse.ok) {

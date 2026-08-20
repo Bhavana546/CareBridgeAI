@@ -41,7 +41,7 @@ interface CostResult {
   disclaimer: string;
 }
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://carebridgeai-fatj.onrender.com";
 
 const formatCurrency = (value: number | undefined | null) => {
   const amount = Number(value);

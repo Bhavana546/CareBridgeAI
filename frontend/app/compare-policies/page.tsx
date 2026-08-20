@@ -56,7 +56,7 @@ export default function ComparePoliciesPage() {
         setError("");
 
         const response = await fetch(
-          "http://carebridgeai-fatj.onrender.com/policies"
+          "https://carebridgeai-fatj.onrender.com/policies"
         );
 
         const data = await response.json();
@@ -116,7 +116,7 @@ export default function ComparePoliciesPage() {
         setError("");
 
         const response = await fetch(
-          `http://carebridgeai-fatj.onrender.com/policy-compare?policy1=${firstPolicyId}&policy2=${secondPolicyId}`
+          `https://carebridgeai-fatj.onrender.com/policy-compare?policy1=${firstPolicyId}&policy2=${secondPolicyId}`
         );
 
         const data = await response.json();
