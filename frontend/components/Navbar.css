@@ -1,0 +1,153 @@
+/* =========================
+   CAREBRIDGE AI NAVBAR
+========================= */
+
+.navbar {
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 1px solid #dbe3ec;
+  box-shadow: 0 3px 12px rgba(30, 50, 75, 0.06);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  min-height: 76px;
+  padding: 0 28px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+
+/* =========================
+   LOGO
+========================= */
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+
+  text-decoration: none;
+  color: inherit;
+  white-space: nowrap;
+}
+
+.logo-icon {
+  width: 38px;
+  height: 38px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 10px;
+  background: linear-gradient(135deg, #294a91, #168092);
+
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.logo-name {
+  color: #263c59;
+  font-size: 18px;
+  font-weight: 750;
+  letter-spacing: 0.2px;
+}
+
+.logo-tagline {
+  margin-top: 2px;
+  color: #77869a;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+
+/* =========================
+   NAVIGATION LINKS
+========================= */
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.navbar-links::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-link {
+  padding: 10px 12px;
+  border-radius: 8px;
+
+  color: #58697e;
+  text-decoration: none;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+  background: #edf3fb;
+  color: #294a91;
+}
+
+.nav-link.active {
+  background: #e7effd;
+  color: #24498d;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 1050px) {
+  .navbar-container {
+    padding: 0 18px;
+    gap: 18px;
+  }
+
+  .nav-link {
+    padding: 9px 10px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 700px) {
+  .navbar-container {
+    min-height: 68px;
+    padding: 0 14px;
+    gap: 12px;
+  }
+
+  .logo-tagline {
+    display: none;
+  }
+
+  .logo-name {
+    font-size: 16px;
+  }
+
+  .logo-icon {
+    width: 34px;
+    height: 34px;
+  }
+
+  .navbar-links {
+    max-width: calc(100vw - 190px);
+  }
+}

@@ -1,0 +1,28 @@
+hospital_id,specialty
+H001,Cardiology
+H001,Neurology
+H001,Orthopedics
+H001,General Medicine
+H002,Cardiology
+H002,Cardiac Surgery
+H003,Cardiology
+H003,Orthopedics
+H003,Neurology
+H004,General Medicine
+H004,Orthopedics
+H004,Cardiology
+H005,General Medicine
+H005,Neurology
+H005,Pediatrics
+H006,Cardiology
+H006,Orthopedics
+H006,Neurology
+H007,Cardiology
+H007,Emergency Medicine
+H008,General Medicine
+H008,Orthopedics
+H009,Cardiology
+H009,General Medicine
+H010,Cardiology
+H010,Neurology
+H010,Orthopedics

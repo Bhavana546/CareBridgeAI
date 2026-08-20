@@ -1,0 +1,11 @@
+procedure_id,procedure_name,specialty,estimated_cost,average_stay_days
+PR001,Angioplasty,Cardiology,250000,3
+PR002,Coronary Artery Bypass Surgery,Cardiac Surgery,450000,7
+PR003,Knee Replacement,Orthopedics,220000,5
+PR004,Hip Replacement,Orthopedics,250000,5
+PR005,MRI Scan,Radiology,8000,0
+PR006,CT Scan,Radiology,6000,0
+PR007,Cataract Surgery,Ophthalmology,60000,1
+PR008,Appendectomy,General Surgery,90000,3
+PR009,Neurological Evaluation,Neurology,30000,2
+PR010,General Medical Admission,General Medicine,25000,2

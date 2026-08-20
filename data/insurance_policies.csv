@@ -1,0 +1,9 @@
+policy_id,insurer_name,policy_name,sum_insured,room_eligibility,copay_percent,deductible,network_type
+P001,HealthSecure,Family Secure Plus,500000,Semi-Private,10,5000,Cashless
+P002,HealthSecure,Premium Care,1000000,Private,5,0,Cashless
+P003,CareShield,Health Protect,300000,General Ward,20,10000,Cashless
+P004,CareShield,Gold Health Plan,750000,Semi-Private,10,5000,Cashless
+P005,MediSure,Family Health Advantage,500000,Private,15,0,Cashless
+P006,MediSure,Essential Health,250000,General Ward,20,10000,Reimbursement
+P007,WellLife,Complete Care,1000000,Private,0,0,Cashless
+P008,WellLife,Smart Health Plan,500000,Semi-Private,10,5000,Cashless

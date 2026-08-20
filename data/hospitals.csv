@@ -1,0 +1,11 @@
+hospital_id,hospital_name,city,state,latitude,longitude,hospital_type
+H001,Vijayawada Care Hospital,Vijayawada,Andhra Pradesh,16.5062,80.6480,Multi-Specialty
+H002,Andhra Heart Institute,Vijayawada,Andhra Pradesh,16.5145,80.6512,Specialty
+H003,Krishna Multi-Specialty Hospital,Vijayawada,Andhra Pradesh,16.4987,80.6345,Multi-Specialty
+H004,City Health Medical Center,Vijayawada,Andhra Pradesh,16.5201,80.6590,Multi-Specialty
+H005,Sunrise Medical Institute,Vijayawada,Andhra Pradesh,16.4855,80.6420,Teaching Hospital
+H006,Guntur Advanced Care Hospital,Guntur,Andhra Pradesh,16.3067,80.4365,Multi-Specialty
+H007,Guntur Heart and Trauma Center,Guntur,Andhra Pradesh,16.3125,80.4280,Specialty
+H008,Mangalagiri Health Center,Mangalagiri,Andhra Pradesh,16.4300,80.5600,Multi-Specialty
+H009,Amaravati Medical Center,Amaravati,Andhra Pradesh,16.5410,80.5150,Multi-Specialty
+H010,Krishna Regional Hospital,Vijayawada,Andhra Pradesh,16.4900,80.6550,Multi-Specialty

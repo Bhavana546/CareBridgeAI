@@ -1,0 +1,28 @@
+hospital_id,room_type,daily_cost
+H001,General Ward,2000
+H001,Semi-Private,4000
+H001,Private,7500
+H002,Semi-Private,5000
+H002,Private,9000
+H003,General Ward,2200
+H003,Semi-Private,4500
+H003,Private,8000
+H004,General Ward,1800
+H004,Semi-Private,3800
+H004,Private,7000
+H005,General Ward,1500
+H005,Semi-Private,3500
+H005,Private,6500
+H006,General Ward,2000
+H006,Semi-Private,4200
+H006,Private,7800
+H007,Semi-Private,5500
+H007,Private,9500
+H008,General Ward,1600
+H008,Semi-Private,3200
+H009,General Ward,2200
+H009,Semi-Private,4600
+H009,Private,8200
+H010,General Ward,1900
+H010,Semi-Private,4000
+H010,Private,7200
